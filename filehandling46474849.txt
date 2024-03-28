@@ -1,0 +1,64 @@
+File Handling:
+==============
+
+File type:
+1.text file
+
+csv,tsv,txt,config,json
+
+2.Binary File:
+pdf,jpeg,xlsx,mp3,mp4,png
+
+1.text File:
+
+open() : to open file in given mode
+
+
+fp = open(filename/path,mode)
+
+filename/path 
+
+mode:
+1.r --> read mode
+2.w --> write mode
+3.a --> append mode
+4.x -->exclusive mode
+5.r+ -->read then write
+6.w+--> write then read
+7.a+--> append then read
+=====================================PyCharm==================================
+
+read mode:
+
+1.file should be present --> then it will read
+2.if not then it will return FileNotFoundError
+
+r - open(filename,mode)
+
+	fp= open(filename,r)
+	
+	fp = open(filename) --> read 
+	
+1.read() : to read all content from file
+2.read(n) : to read number of chars from file
+3.readlines() : list of lines
+
+Assignement :
+
+list --> emails
+list --> mobile numbers
+
+
+4.readline()
+
+
+
+write:
+
+
+append:
+
+
+r+
+w+
+a+
